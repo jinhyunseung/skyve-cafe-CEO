@@ -1,9 +1,9 @@
 INSERT IGNORE INTO vets VALUES (1, 'BETTERMONDAY', 'CentumCity');
 INSERT IGNORE INTO vets VALUES (2, 'ADEN', 'CentumCity');
-INSERT IGNORE INTO vets VALUES (1, 'SmallGood', 'CentumCity');
-INSERT IGNORE INTO vets VALUES (3, 'ALOT', 'Millak');
-INSERT IGNORE INTO vets VALUES (1, 'HIO', 'Suyeong');
-INSERT IGNORE INTO vets VALUES (1, 'EDIYA', 'Suyeong');
+INSERT IGNORE INTO vets VALUES (3, 'SmallGood', 'CentumCity');
+INSERT IGNORE INTO vets VALUES (4, 'ALOT', 'Millak');
+INSERT IGNORE INTO vets VALUES (5, 'HIO', 'Suyeong');
+INSERT IGNORE INTO vets VALUES (6, 'EDIYA', 'Suyeong');
 
 INSERT IGNORE INTO specialties VALUES (1, '5min');
 INSERT IGNORE INTO specialties VALUES (2, '10min');
