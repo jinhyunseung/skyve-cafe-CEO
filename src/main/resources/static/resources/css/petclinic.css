@@ -88,7 +88,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  /* background-color: var(--bs-body-bg); */
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: #6292be; }
 
@@ -516,23 +516,23 @@ progress {
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: 540px; } }
+    width: 100%; } }
 
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px; } }
+    width: 100%; } }
 
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px; } }
+    width: 100%; } }
 
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px; } }
+    width: 100%; } }
 
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1520px; } }
+    width: 100%; } }
 
 .row {
   display: flex;
@@ -556,7 +556,7 @@ progress {
       flex-wrap: wrap;
       width: 100%;
       height: 937px;
-      margin-top: 50px;
+      /* margin-top: 50px; */
       /* background-color: #CEAB93; */
       background-size: cover;
     background-image: url(https://cdn.pixabay.com/photo/2020/10/07/12/33/cafe-5635013__340.jpg);
@@ -571,6 +571,14 @@ progress {
       padding-right: calc(var(--bs-gutter-x) * .5);
       padding-left: calc(var(--bs-gutter-x) * .5);
       margin-top: var(--bs-gutter-y); }
+      h1#footer-copy {
+        box-sizing: border-box;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        color: #603601;
+    }
 
 .col {
   flex: 1 0 0%; }
@@ -7939,7 +7947,7 @@ h2, .h2 {
   margin-bottom: 10px;
   font-family: "montserratregular", sans-serif; }
 h2#main-title{
-  color: #603601;
+  color: #C69B7B;
   line-height: 638px;
   margin-left: 5%;
   z-index: 10;
