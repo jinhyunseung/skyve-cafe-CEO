@@ -90,7 +90,7 @@ body {
   text-align: var(--bs-body-text-align);
   /* background-color: var(--bs-body-bg); */
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: #6292be; }
+  -webkit-tap-highlight-color: #87431D; }
 
 hr {
   margin: 1rem 0;
@@ -7792,8 +7792,8 @@ textarea.form-control-lg {
     display: none !important; } }
 
 .table > thead > tr > th {
-  background-color: #3c3834;
-  color: #f1f1f1; }
+  background-color: #CEAB93;
+  color: #361500; }
 
 .table-filter {
   background-color: #34302D;
@@ -7985,6 +7985,7 @@ table#owners{
 }
 table#vets{
   margin-left: 5%;
+  width: 90%;
 }
 table.table.table-striped{
   margin-left: 5%;

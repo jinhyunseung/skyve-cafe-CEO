@@ -5,13 +5,14 @@
 
 <body>
 
-<h2>Veterinarians</h2>
+<h2 id="owners">Veterinarians</h2>
 
 <table id="vets" class="table table-striped">
   <thead>
   <tr>
     <th>Name</th>
     <th>Specialties</th>
+    <th>City + Telephone</th>
   </tr>
   </thead>
   <tbody>
@@ -20,11 +21,12 @@
     <td><span th:each="specialty : ${vet.specialties}"
               th:text="${specialty.name + ' '}"/> <span
       th:if="${vet.nrOfSpecialties == 0}">none</span></td>
+      <td th:text="${vet.city + ' ' + vet.telephone}"></td>
   </tr>
   </tbody>
 </table>
 
-<div th:if="${totalPages > 1}">
+<div id="owners" th:if="${totalPages > 1}">
   <span>Pages:</span>
   <span>[</span>
   <span th:each="i: ${#numbers.sequence(1, totalPages)}">
