@@ -557,9 +557,13 @@ progress {
       width: 100%;
       height: 937px;
       margin-top: 50px;
-      background-color: #CEAB93;
+      /* background-color: #CEAB93; */
+      background-size: cover;
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/07/12/33/cafe-5635013__340.jpg);
     }
-
+    div#main-row > * {
+      margin-top: 8%;
+  }
     #main-row > * {
       flex-shrink: 0;
       width: 100%;
@@ -921,7 +925,8 @@ progress {
     margin-top: 5%;
     width: 90%;
     height: 75%;
-    background-color: #b6afaa;
+    background-image: linear-gradient(45deg, black, transparent);
+    /* background-color: #b6afaa; */
   }
   .offset-md-0 {
     margin-left: 0; }
@@ -7815,6 +7820,7 @@ code {
   /* padding-left: 5px;
   padding-right: 5px;  */
   margin-top: 50px;
+  margin-left: 5%;
 }
 
 h1, .h1 {
@@ -7931,11 +7937,13 @@ h2, .h2 {
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 10px;
-  margin-left: 5%;
-  line-height: 638px;
   font-family: "montserratregular", sans-serif; }
 h2#main-title{
   color: #603601;
+  line-height: 638px;
+  margin-left: 5%;
+  z-index: 10;
+  font-size: 48px;
 }
 h3, .h3 {
   font-size: 16px;
