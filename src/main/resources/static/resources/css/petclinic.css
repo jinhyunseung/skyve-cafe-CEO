@@ -7969,6 +7969,26 @@ h2#main-title{
     left: 0;
   }
 }
+
+#owners{
+  margin-left: 5%;
+  margin-top: 50px;
+}
+form#search-owner-form {
+  margin-left: 5%;
+}
+form#add-owner-form{
+  margin-left: 5%;
+}
+table#owners{
+  margin-left: 5%;
+}
+table#vets{
+  margin-left: 5%;
+}
+table.table.table-striped{
+  margin-left: 5%;
+}
 h3, .h3 {
   font-size: 16px;
   line-height: 24px;
