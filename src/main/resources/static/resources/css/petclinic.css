@@ -7830,6 +7830,9 @@ code {
   margin-top: 50px;
   margin-left: 5%;
 }
+#mainbox{
+
+}
 
 h1, .h1 {
   margin-bottom: 15px; }
@@ -7952,6 +7955,19 @@ h2#main-title{
   margin-left: 5%;
   z-index: 10;
   font-size: 48px;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  /* keyframe */
+  from {
+    left: -5%;
+  }
+  /* keyframe */
+  to {
+    left: 0;
+  }
 }
 h3, .h3 {
   font-size: 16px;
