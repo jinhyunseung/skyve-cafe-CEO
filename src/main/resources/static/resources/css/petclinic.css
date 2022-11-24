@@ -8000,11 +8000,11 @@ h2#main-title{
 }
 @keyframes slidein {
   from {
-    right: 5%;
+    left: 5%;
   }
 
   to {
-    right: 0%;
+    left: 0%;
   }
 }
 
