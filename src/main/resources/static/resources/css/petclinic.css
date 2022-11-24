@@ -8016,6 +8016,10 @@ strong {
   border-bottom: 0;
   border-left: 0;
   border-right: 0; }
+  #logo{
+    width: 229px;
+    height: 46px;
+  }
 
 .navbar a.navbar-brand {
   background: url("../images/Frame1.png") -1px -1px no-repeat;
