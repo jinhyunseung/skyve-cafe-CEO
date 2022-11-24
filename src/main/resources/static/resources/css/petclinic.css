@@ -81,7 +81,7 @@
 
 body {
   margin: 0;
-  background-color: antiquewhite;
+  background-color: #F7F6F2;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -7959,7 +7959,7 @@ h2, .h2 {
   margin-bottom: 10px;
   font-family: "montserratregular", sans-serif; }
 h2#main-title{
-  color: #C69B7B;
+  color: #4B6587;
   line-height: 638px;
   margin-left: 15%;
   z-index: 10;
@@ -8039,7 +8039,7 @@ strong {
 
 .navbar {
   border-top: 4px solid #011F25;
-  background-color: #AD8B73;
+  background-color: #4B6587;
   margin-bottom: 0px;
   border-bottom: 0;
   border-left: 0;
