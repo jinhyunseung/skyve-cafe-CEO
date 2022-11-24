@@ -5,9 +5,9 @@ INSERT IGNORE INTO vets VALUES (4, 'ALOT', 'Millak');
 INSERT IGNORE INTO vets VALUES (5, 'HIO', 'Suyeong');
 INSERT IGNORE INTO vets VALUES (6, 'EDIYA', 'Suyeong');
 
-INSERT IGNORE INTO specialties VALUES (1, '5min');
-INSERT IGNORE INTO specialties VALUES (2, '10min');
-INSERT IGNORE INTO specialties VALUES (3, '15min');
+INSERT IGNORE INTO specialties VALUES (1, '~5min');
+INSERT IGNORE INTO specialties VALUES (2, '~10min');
+INSERT IGNORE INTO specialties VALUES (3, '~15min');
 
 INSERT IGNORE INTO vet_specialties VALUES (2, 1);
 INSERT IGNORE INTO vet_specialties VALUES (3, 2);
@@ -25,7 +25,7 @@ INSERT IGNORE INTO types VALUES (6, 'hamster');
 INSERT IGNORE INTO owners VALUES (1, 'Jin', 'Hyunseung', 'Americano', 'No Plastic', '24984025');
 INSERT IGNORE INTO owners VALUES (2, 'Choi', 'Juran', 'Cafe latte', 'Ice', '94682188');
 INSERT IGNORE INTO owners VALUES (3, 'Kim', 'Yuchang', 'Americano', 'Ice', '95217416');
-INSERT IGNORE INTO owners VALUES (4, 'Choi', 'Ijeong', 'Cafe Mocha', 'Hot', '60855319');
+INSERT IGNORE INTO owners VALUES (4, 'Choi', 'Yijeong', 'Cafe Mocha', 'Hot', '60855319');
 INSERT IGNORE INTO owners VALUES (5, 'Park', 'Hyogwan', 'orange juice', 'No Ice', '94133645');
 INSERT IGNORE INTO owners VALUES (6, 'Jeon', 'dongjin', 'Cafe Mocha', 'Hot', '68552654');
 INSERT IGNORE INTO owners VALUES (7, 'Jeff', 'Black', '1450 Oak Blvd.', 'Monona', '6085555387');

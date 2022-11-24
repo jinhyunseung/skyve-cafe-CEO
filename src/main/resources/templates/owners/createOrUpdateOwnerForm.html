@@ -11,9 +11,9 @@
       <input
         th:replace="~{fragments/inputField :: input ('Last Name', 'lastName', 'text')}" />
       <input
-        th:replace="~{fragments/inputField :: input ('Address', 'address', 'text')}" />
+        th:replace="~{fragments/inputField :: input ('Menu', 'address', 'text')}" />
       <input
-        th:replace="~{fragments/inputField :: input ('City', 'city', 'text')}" />
+        th:replace="~{fragments/inputField :: input ('Option', 'city', 'text')}" />
       <input
         th:replace="~{fragments/inputField :: input ('Telephone', 'telephone', 'text')}" />
     </div>
@@ -22,7 +22,7 @@
         <button
           th:with="text=${owner['new']} ? 'Add Owner' : 'Update Owner'"
           class="btn btn-primary" type="submit" th:text="${text}">Add
-          Owner</button>
+          Order</button>
       </div>
     </div>
   </form>

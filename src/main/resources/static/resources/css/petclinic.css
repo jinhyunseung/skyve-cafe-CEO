@@ -373,6 +373,15 @@ legend {
   direction: ltr;
 }
 */
+
+.form-group {
+  width: 70%;
+  margin: 10px auto 10px auto;
+}
+section#contact {
+  margin-top: 50px;
+}
+
 ::-webkit-search-decoration {
   -webkit-appearance: none; }
 
@@ -2196,8 +2205,8 @@ textarea.form-control-lg {
       box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5); }
   .btn-primary:disabled, .btn-primary.disabled {
     color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd; }
+    background-color: #CC9544;
+    border-color: #CC9544; }
 
 .btn-secondary {
   color: #fff;

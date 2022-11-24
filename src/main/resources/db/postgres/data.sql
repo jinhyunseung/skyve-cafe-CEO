@@ -5,9 +5,9 @@ INSERT INTO vets (first_name, last_name) SELECT 'ALOT', 'Millak' WHERE NOT EXIST
 INSERT INTO vets (first_name, last_name) SELECT 'HIO', 'Suyeong' WHERE NOT EXISTS (SELECT * FROM vets WHERE id=5);
 INSERT INTO vets (first_name, last_name) SELECT 'EDIYA', 'Suyeong' WHERE NOT EXISTS (SELECT * FROM vets WHERE id=6);
 
-INSERT INTO specialties (name) SELECT '5min' WHERE NOT EXISTS (SELECT * FROM specialties WHERE name='radiology');
-INSERT INTO specialties (name) SELECT '10min' WHERE NOT EXISTS (SELECT * FROM specialties WHERE name='surgery'); 
-INSERT INTO specialties (name) SELECT '15min' WHERE NOT EXISTS (SELECT * FROM specialties WHERE name='dentistry');
+INSERT INTO specialties (name) SELECT '~5min' WHERE NOT EXISTS (SELECT * FROM specialties WHERE name='radiology');
+INSERT INTO specialties (name) SELECT '~10min' WHERE NOT EXISTS (SELECT * FROM specialties WHERE name='surgery'); 
+INSERT INTO specialties (name) SELECT '~15min' WHERE NOT EXISTS (SELECT * FROM specialties WHERE name='dentistry');
 
 INSERT INTO vet_specialties VALUES (2, 1) ON CONFLICT (vet_id, specialty_id) DO NOTHING;
 INSERT INTO vet_specialties VALUES (3, 2) ON CONFLICT (vet_id, specialty_id) DO NOTHING;
@@ -25,7 +25,7 @@ INSERT INTO types (name) SELECT 'hamster' WHERE NOT EXISTS (SELECT * FROM specia
 INSERT INTO owners (first_name, last_name, address, city, telephone) SELECT 'Jin', 'Hyunseung', 'Americano', 'No Plastic', '24984025' WHERE NOT EXISTS (SELECT * FROM owners WHERE id=1);
 INSERT INTO owners (first_name, last_name, address, city, telephone) SELECT 'Choi', 'Juran', 'Cafe latte', 'Ice', '94682188' WHERE NOT EXISTS (SELECT * FROM owners WHERE id=2);
 INSERT INTO owners (first_name, last_name, address, city, telephone) SELECT 'Kim', 'Yuchang', 'Americano', 'Ice', '95217416' WHERE NOT EXISTS (SELECT * FROM owners WHERE id=3);
-INSERT INTO owners (first_name, last_name, address, city, telephone) SELECT 'Choi', 'Ijeong', 'Cafe Mocha', 'Hot', '60855319' WHERE NOT EXISTS (SELECT * FROM owners WHERE id=4);
+INSERT INTO owners (first_name, last_name, address, city, telephone) SELECT 'Choi', 'Yijeong', 'Cafe Mocha', 'Hot', '60855319' WHERE NOT EXISTS (SELECT * FROM owners WHERE id=4);
 INSERT INTO owners (first_name, last_name, address, city, telephone) SELECT 'Park', 'Hyogwan', 'orange juice', 'No Ice', '94133645' WHERE NOT EXISTS (SELECT * FROM owners WHERE id=5);
 INSERT INTO owners (first_name, last_name, address, city, telephone) SELECT 'Jeon', 'dongjin', 'Cafe Mocha', 'Hot', '68552654' WHERE NOT EXISTS (SELECT * FROM owners WHERE id=6);
 INSERT INTO owners (first_name, last_name, address, city, telephone) SELECT 'Jeff', 'Black', '1450 Oak Blvd.', 'Monona', '6085555387' WHERE NOT EXISTS (SELECT * FROM owners WHERE id=7);
