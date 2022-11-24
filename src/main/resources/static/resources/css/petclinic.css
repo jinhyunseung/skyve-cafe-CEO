@@ -7970,7 +7970,7 @@ h2#main-title{
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-button#main-but {
+#main-but {
   position: absolute;
   float: right;
   margin-right: 10%;
