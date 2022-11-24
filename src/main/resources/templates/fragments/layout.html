@@ -50,20 +50,20 @@
             <span>Home</span>
           </li>
 
-          <li th:replace="~{::menuItem ('/owners/find','owners','find owners','search','Find owners')}">
+          <li th:replace="~{::menuItem ('/owners/find','owners','find owners','search','Find Orders')}">
             <span class="fa fa-search" aria-hidden="true"></span>
             <span>Find Orders</span>
           </li>
 
-          <li th:replace="~{::menuItem ('/vets.html','vets','veterinarians','th-list','Veterinarians')}">
+          <li th:replace="~{::menuItem ('/vets.html','vets','veterinarians','th-list','List')}">
             <span class="fa fa-th-list" aria-hidden="true"></span>
             <span>List</span>
           </li>
 
           <li
-            th:replace="~{::menuItem ('/oups','error','trigger a RuntimeException to see how it is handled','exclamation-triangle','Error')}">
+            th:replace="~{::menuItem ('/oups','error','trigger a RuntimeException to see how it is handled','exclamation-triangle','Comment')}">
             <span class="fa exclamation-triangle" aria-hidden="true"></span>
-            <span>Notice</span>
+            <span>Comment</span>
           </li>
 
         </ul>
