@@ -7968,7 +7968,7 @@ h2#main-title{
   width: 800px;
   animation-name: move;
   animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
 #main-but {
   position: absolute;
@@ -7984,9 +7984,9 @@ h2#main-title{
   font-size: 36px;
   font-weight: bold;
   color: #fff;
-  animation-name: fadein;
+  animation: fadein;
   animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
 @keyframes move {
   /* keyframe */
@@ -8002,7 +8002,6 @@ h2#main-title{
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
