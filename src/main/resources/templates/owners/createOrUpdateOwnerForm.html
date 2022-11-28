@@ -7,15 +7,15 @@
   <form th:object="${owner}" class="form-horizontal" id="add-owner-form" method="post">
     <div class="form-group has-feedback">
       <input
-        th:replace="~{fragments/inputField :: input ('First Name', 'firstName', 'text')}" />
+        th:replace="~{fragments/inputField :: input ('User Name', 'firstName', 'text')}" />
       <input
-        th:replace="~{fragments/inputField :: input ('Last Name', 'lastName', 'text')}" />
+        th:replace="~{fragments/inputField :: input ('Menu Name', 'lastName', 'text')}" />
       <input
-        th:replace="~{fragments/inputField :: input ('Menu', 'address', 'text')}" />
+        th:replace="~{fragments/inputField :: input ('Option', 'address', 'text')}" />
       <input
-        th:replace="~{fragments/inputField :: input ('Option', 'city', 'text')}" />
+        th:replace="~{fragments/inputField :: input ('Telephone', 'city', 'text')}" />
       <input
-        th:replace="~{fragments/inputField :: input ('Telephone', 'telephone', 'text')}" />
+        th:replace="~{fragments/inputField :: input ('Time', 'telephone', 'text')}" />
     </div>
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
